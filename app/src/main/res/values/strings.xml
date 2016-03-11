@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fasteksi</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="countrycode">+91</string>
+    <string name="password">Password</string>
+    <string name="checkbox">Keep me logged in</string>
+    <string name="btnsignin">Sign In</string>
+    <string name="forgetpassword">Forget Password?</string>
+    <string name="newuser">New User?</string>
+    <string name="email">Email ID</string>
+    <string name="name">Full Name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="customerlogin">CustomerLogin</string>
+    <string name="forgetpswd">ForgetPassword</string>
+    <string name="newCustomer">New Customer</string>
+    <string name="terms_and_conditions">I Agree to the <u>Term and Conditions</u></string>
+    <string name="title_activity_maps_fragment">Map</string>
+    <string name="google_app_id">IzaSyC43mGOd6EPr_-jcT1jHunMS061hmsIgEE</string>
+    <string name="Fasteksi">BOOK A Cab</string>
+    <string name="servicenotavaibale">Service Not Available</string>
+    <string name="latlng">No Longitude and Latitude</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="edit"><u>EDIT</u></string>
+</resources>

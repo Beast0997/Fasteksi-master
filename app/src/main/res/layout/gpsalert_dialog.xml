@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_vertical_margin"
+    android:layout_height="600dp">
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/x"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/txt_city"
+        android:layout_marginTop="15dp"
+        android:text="City:"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/round_corner"
+        android:layout_height="40dp">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textcolor"
+        android:layout_height="wrap_content"
+        android:text="Area :"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/edt_area"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/round_corner"
+        android:hint="Enter First 3 letter  "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Address + LandMark :"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/round_corner"
+        android:text="Full Address and LandMark"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:textColor="@color/textcolor"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_btncorner"
+        android:text="ok"/>
+
+</LinearLayout>
